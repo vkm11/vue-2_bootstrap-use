@@ -1,4 +1,15 @@
 # vue-2_bootstrap-use
+    vue add bootstrap-vue
+
+    after installing plugins folder will be created automatically and bootstrap-vue.js one file is created
+
+    ## main.js file
+    import '@babel/polyfill'
+    import 'mutationobserver-shim'
+    import './plugins/bootstrap-vue'
+
+
+    https://bootstrap-vue.org/
 
 ## Project setup
 ```

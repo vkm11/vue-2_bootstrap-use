@@ -1,0 +1,37 @@
+<template>
+    <div>
+        <h1>ActiveBoot Components</h1>
+        <div>
+            <b-button>Button</b-button>
+            <b-button variant="danger">Button</b-button>
+            <b-button variant="success">Button</b-button>
+            <b-button variant="outline-primary">Button</b-button>
+        </div>
+
+        <br>
+        <b-container fluid class="p-4 bg-dark">
+        <b-row>
+            <b-col>
+                <b-img thumbnail fluid src="https://picsum.photos/250/250/?image=54" alt="Image 1"></b-img>
+            </b-col>
+            <b-col>
+                <b-img thumbnail fluid src="https://picsum.photos/250/250/?image=58" alt="Image 2"></b-img>
+            </b-col>
+            <b-col>
+                <b-img thumbnail fluid src="https://picsum.photos/250/250/?image=59" alt="Image 3"></b-img>
+            </b-col>
+        </b-row>
+    </b-container>
+    </div>
+    
+</template>
+
+<script>
+export default {
+    name :"Active-boot"
+}
+</script>
+
+<style>
+
+</style>
